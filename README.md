@@ -1,4 +1,4 @@
-# gcloud-ps1: Gcloud prompt
+# gcloud-ps1: Google Cloud prompt
 
 A script that lets you show your active google cloud configuration on your
 prompt. Inspired by https://github.com/jonmosco/kube-ps1
