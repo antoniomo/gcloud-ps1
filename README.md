@@ -15,11 +15,12 @@ source /path/to/gcloud-ps1.sh
 PS1='$(gcloud_ps1)$ '
 ```
 
-Zsh (untested, let me know if it works!):
+Zsh:
 
 ```
+setopt PROMPT_SUBST
 source /path/to/gcloud-ps1.sh
-PROMPT='$(gcloud_ps1)'$PROMPT
+PROMPT='$(gcloud_ps1)$ '
 ```
 
 ## Enabling / Disabling
